@@ -10,11 +10,10 @@ using namespace std;
 class Solution {
 public:
 	string longestPalindrome(string s) {
-		if (s == "")
-			return "";
-		if (s.size() == 1)
+		int length = s.size();
+		if (length == 1 || length ==0)
 			return s;
-		if (s.size() == 2) {
+		if (length == 2) {
 			if (s[0] == s[1])
 				return s;
 			else
@@ -29,8 +28,6 @@ public:
 					p[k][y] = false;
 			}
 		}
-
-		int length = s.size();
 		for (int j = 0; j < length - 1; j++) {
 			if (s[j] == s[j + 1]) {
 				p[j][j + 1] = true;
