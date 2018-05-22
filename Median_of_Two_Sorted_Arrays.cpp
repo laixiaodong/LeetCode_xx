@@ -1,3 +1,8 @@
+/*
+The project was established to solve the leetcode problem.
+The author is Xu Xing and the file name is the name of the issue.
+2018 / 2
+*/
 #include "stdafx.h"
 #include <vector>
 #include <iostream>   

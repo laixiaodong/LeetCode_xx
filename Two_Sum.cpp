@@ -1,6 +1,8 @@
-// easy.cpp : 定义控制台应用程序的入口点。
-//
-
+/*
+The project was established to solve the leetcode problem.
+The author is Xu Xing and the file name is the name of the issue.
+2018 / 2
+*/
 #include "stdafx.h"
 #include<vector>
 using namespace std;
